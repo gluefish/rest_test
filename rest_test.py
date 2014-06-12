@@ -6,19 +6,9 @@
 # Function: demonstrates how a basic REST client works and uses a DOM parser
 # to extract the required data
 
-
-
-
-
 from time import gmtime, strftime
-from os.path import isfile
-from os import remove
-from os import system
-from os import listdir
 from xml.dom.minidom import parseString
 import urllib
-import subprocess
-import shutil
 
 HOMEDIR = "/users/Tom/CodeProjects/WebServicesExamples/"
 PROGNAME = "Rest"
